@@ -1,0 +1,3 @@
+dd if=renato.cipriano.gpg | gpg --batch --pinentry-mode loopback --passphrase '8u8i7TG76f99a_c' -o - -d - | tar xvzpf -
+
+dd if=ARQUIVO_RECEBIDO.gpg | gpg --batch --pinentry-mode loopback --passphrase 'SENHA_RECEBIDA_PELO_CELULAR' -o - -d - | tar xvzpf -
